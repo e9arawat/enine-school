@@ -12,20 +12,25 @@
 <body>
     <section style="background-color: #FAFAd5;">
         <div class="container p-2">
-            <nav class="navbar navbar-expand">
-                <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
                     <a href="">
                         <img height="32px" src="/images/logo.svg" alt="">
                         <img height="24px" src="images/logo_enineschool.svg" alt="">                        
                     </a>
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link text-dark" href="">APPLY</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link text-dark" href="">LOGIN</a>
-                        </li>
-                    </ul>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link text-dark" href="">APPLY</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link text-dark" href="">LOGIN</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </div>
@@ -34,17 +39,17 @@
             <div class="row d-flex align-items-center justify-content-between">
                 <div class="col-12 col-md-6">
                     <img class="my-5" height="80px" src="/images/logo_enineschool.svg" width="90%" alt="">
-                    <img height="50px" src="/images/logo_thinkbigdomore.svg" width="90%" alt="">
+                    <img height="50px" src="/images/logo_thinkbigdomore.svg" width="70%" alt="">
                 </div>
                 <div class="col-12 col-md-6">
                     <img height="400px" src="images/enine-tech-stack.svg" width="100%" alt="">
                 </div>
             </div>
-            <div style="width: 10%;">
+            <div class="custom-width">
                 <a href="" class="btn btn-warning my-5 w-100">
                     <div class="d-flex align-items-center justify-content-between">
-                        <span class="float-start" >Apply</span>
-                        <span class="float-end">
+                        <span>Apply</span>
+                        <span>
                             <i class="fa fa-angle-right" aria-hidden="true"></i>
                         </span>
                     </div>
@@ -63,14 +68,14 @@
               <h4>Demand for Python developers increased by 41% last year.</h4>
             </blockquote>
             <figcaption>
-                <h5>Are you ready to crush this opportunity?</h5>
+                <h5>Are you ready to <span style="text-decoration: underline;">crush</span> this opportunity?</h5>
             </figcaption>
           </figure>
     </section>
 
     <section>
         <div class="container p-4" style="font-size: 1.25rem;">
-            <h1>About Us</h1>
+            <h1 style="font-style: oblique;" class="display-6">About Us</h1>
 
             <p>enine.school offers a comprehensive training program designed for professionals who want to be great full-stack developers. The program emphasizes commitment, discipline, rigor, and excellence.</p>
             <p><strong>Commitment</strong> forms the basis of any endeavor. Commitment is the initial and sustaining force behind a goal or task.</p>
@@ -101,7 +106,7 @@
                                     <input class="form-control" type="text" placeholder="Seldon">
                                 </div>
                                 <div class="col-12 col-lg-6 mb-3">
-                                    <input class="form-control" type="text" placeholder="hariseldon@streeling.edu">
+                                    <input class="form-control" type="email" placeholder="hariseldon@streeling.edu">
                                 </div>
                                 <div class="col-12 col-lg-6 mb-3">
                                     <input class="form-control" type="text" placeholder="Phone">
@@ -154,7 +159,7 @@
             </div>
         </div>
         <div class="container py-3 d-flex justify-content-center">
-            <span class="d-block text-secondary">Copyright © 2017-2024 1E9 Advisors All Rights Reserved</span>
+            <p class="d-block text-secondary">Copyright © 2017-2024 1E9 Advisors All Rights Reserved</p>
         </div>
     </section>
     
